@@ -1,0 +1,51 @@
+body{
+    font-family: monospace;
+    font-size: 14px;
+    background-color: bisque;
+}
+.container, header, section, article{
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 8px;
+}
+.container{
+    margin: 20px 200px;
+    background-color: rgb(250, 212, 165);
+}
+h1{
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-style: italic;
+}
+main{
+    display: flex;
+}
+section{
+    flex: 20%;
+}
+section h2{
+    text-align: center;
+}
+section a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+article{
+    flex: 80%;
+}
+.profile{
+    display: flex;
+}
+img{
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+}

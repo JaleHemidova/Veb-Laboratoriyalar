@@ -1,0 +1,25 @@
+html{
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+}
+#info{
+    flex: 75%;
+}
+#image{
+    flex: 25%;
+}
+img{
+    width: 80%;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: rgb(72, 72, 253);
+    font-size: 18px;
+    font-weight: 600;
+}
+form{
+    padding: 15px;
+}

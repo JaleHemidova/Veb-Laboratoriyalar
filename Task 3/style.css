@@ -1,0 +1,50 @@
+body{
+    font-family: monospace;
+    font-size: 14px;
+    background-color: bisque;
+}
+.container, header, section, article, aside, aside div{
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 8px;
+}
+.container{
+    margin: 20px 200px;
+    background-color: rgb(250, 212, 165);
+}
+h1, h2, h3{
+    text-align: center;
+}
+h3{
+    margin: 0 !important;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+/* h1 a:hover{
+    text-decoration: underline;
+} */
+main{
+    display: flex;
+}
+section{
+    flex: 20%;
+}
+article{
+    flex: 45%;
+}
+article ol{
+    padding-left: 30px;
+}
+aside{
+    flex: 35%;
+}
+section a{
+    display: block;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
