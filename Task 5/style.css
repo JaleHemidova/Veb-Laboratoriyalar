@@ -5,62 +5,39 @@
     box-sizing: border-box;
 }
 body{
-    font-family: "Roboto";
+    font-family: 'Roboto';
+    font-size: 18px;
 }
-.container{
-    margin: 10px 300px;
-    background-color: rgb(197, 195, 195);
-    padding: 40px;
-    border-radius: 8px;
+table{
+    border-collapse: collapse;  
+    margin: 20px auto;  
 }
-.cards{
-    display: flex;
-    justify-content: space-between;
+th, td{
+    border: 1px solid black;
+    padding: 7px;
 }
-.card{
-    width: 32%;
+thead{
+    background-color: bisque;
     text-align: center;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 10px 5px 5px rgb(146, 145, 145);
 }
-.card-main{
-    padding: 20px 40px;
+tr th:nth-child(1){
+    width: 35px;
 }
-.title{
-    background-color: rgb(74, 88, 221);
-    color: white;
-    padding: 15px 30px;
-    font-size: 24px;
-    font-weight: 900;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+tr th:nth-child(2){
+    width: 130px;
 }
-.main-title{
-    font-size: 50px;
+tr th:nth-child(3){
+    width: 170px;
 }
-.main-text{
-    font-size: 20px;
-    margin-bottom: 20px;
-    font-weight: 600;
+tr th:nth-child(4){
+    width: 150px;
 }
-.text{
-    font-size: 14px;
+.pink td:last-child{
+    background-color: rgb(252, 220, 226);
 }
-article{
-    margin: 50px -20px 5px -20px;
-    background-color: white;
-    padding-bottom: 20px;
-    font-size: 16px;
+.green td:last-child{
+    background-color: rgb(113, 212, 113);
 }
-.info{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 30px 0px 30px;
-}
-.line{
-    margin: 15px 20px;
-    height: 15px;
-    border-radius: 5px;
-    background-color: rgb(197, 195, 195);
+.orange td:last-child{
+    background-color: rgb(231, 176, 73);
 }
